@@ -1,4 +1,3 @@
-# docker build -t kohkimakimoto/rpmbuild-el7 .
 FROM centos:centos7
 
 RUN yum -y install epel-release && yum clean all && \
