@@ -10,6 +10,7 @@ RUN yum -y install epel-release && yum clean all && \
     sudo \
     tar \
     zlib-devel \
+    createrepo \
     wget
 
 RUN adduser \
@@ -23,3 +24,4 @@ USER rpm-builder
 RUN rpmdev-setuptree
 WORKDIR /home/rpm-builder
 CMD /bin/bash
+

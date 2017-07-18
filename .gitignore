@@ -4,7 +4,7 @@ Thumbs.db
 ._*
 *.iml
 node_modules
-/dist
+/.vscode
 /.env
 
 !.gitkeep
